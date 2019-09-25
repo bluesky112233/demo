@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.8)
+set (SpellCheck_VERISON_MAJOR 1)
+set (SpellCheck_VERSION_MINOR 0)
+set (CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -std=c99")
+project(spell_check)
+add_executable(spell_check main.c spell.c dictionary.c)
