@@ -174,7 +174,6 @@ START_TEST(test_dictionary_word_buffer_overflow)
         ck_assert(count > 1995);
 }
 END_TEST
-
 */
 
 //START_TEST(test_check_numbers)
