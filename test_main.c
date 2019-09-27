@@ -5,7 +5,7 @@
 #define DICTIONARY "wordlist.txt"
 #define TESTDICT "test_worlist.txt"
 //#define TEST_DICT_MAX "wordlist_x26.txt"
-#define TEST_Big_Dict "wordlist_x26.txt"
+//#define TEST_Big_Dict "wordlist_x26.txt"
 
 START_TEST(test_dictionary_normal)
 {
