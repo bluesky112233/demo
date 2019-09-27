@@ -158,6 +158,7 @@ START_TEST(test_misspelled_word_buffer_overflow)
 END_TEST
 
 //START_TEST(test_dictionary_buffer_overflow)
+/*
 START_TEST(test_dictionary_word_buffer_overflow)
 {
     hashmap_t hashtable[HASH_SIZE];
@@ -173,6 +174,7 @@ START_TEST(test_dictionary_word_buffer_overflow)
         ck_assert(count > 1995);
 }
 END_TEST
+*/
 
 //START_TEST(test_check_numbers)
 START_TEST(test_check_numbers_in_sentence)
@@ -208,7 +210,7 @@ check_word_suite(void)
     tcase_add_test(check_word_case, test_dictionary_normal);
     //tcase_add_test(check_word_case, test_input_buffer_overflow);
     tcase_add_test(check_word_case, test_check_for_multiline);
-    tcase_add_test(check_word_case, test_misspelled_word_buffer_overflow);
+    //tcase_add_test(check_word_case, test_misspelled_word_buffer_overflow);
     tcase_add_test(check_word_case, test_check_for_special_chars);
     tcase_add_test(check_word_case, test_dictionary_word_buffer_overflow);
     tcase_add_test(check_word_case, test_check_numbers_in_sentence);
